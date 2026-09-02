@@ -2,7 +2,7 @@ name: BTC RSI Telegram Alert
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "* * * * *"
   workflow_dispatch:
 
 jobs:
