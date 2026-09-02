@@ -1,4 +1,4 @@
-name: BTC RSI Telegram Alert
+name: BTC RSI Telegram Alert V2
 
 on:
   schedule:
