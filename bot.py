@@ -81,6 +81,8 @@ def send_telegram(message):
 
 
 def main():
+        send_telegram("✅ تست ربات BTC RSI با موفقیت انجام شد")
+    return
     candles = get_candles()
 
     candles.sort(key=lambda x: x[0])
